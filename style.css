@@ -15,3 +15,9 @@ h2 {
 img {
     padding-left: 560px;
 }
+
+ul, p {
+    color: white;
+    text-align: center;
+    list-style-position: inside;
+}
