@@ -8,3 +8,17 @@ input.addEventListener('mouseover', function() {
   alert('This is an image of me!');
 });
 
+const header = document.getElementById('header');
+header.addEventListener('mouseover', function() {
+  header.style.color = "pink";
+});
+
+header.addEventListener('mouseout', function () {
+  header.style.color = "yellow";
+});
+
+
+
+
+
+
